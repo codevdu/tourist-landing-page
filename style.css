@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: "Open Sans", sans-serif;
+    line-height: 150%;
+    --background-default:#F5F4F0;
+    --border-primary:#D9D9D9;
+    --text-primary:#1B1B1B;
+    --text-secondary:#333333;
+    --text-tertiary:#696969;
+    --headline:#E1624F;
+    --accent-blue:#0C51A7;
+    --accent-orange:#E95E10;
+    --accent-pink:#E5245E;
+    --accent-purple:#591B98;
+
+}
+
+body {
+    padding: 24px;
+    background-color: var(--background-default);
+}
+
+main {
+    margin: 48px 250px 65px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 8px auto 40px;
+}
+
+header h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+header .description {
+    margin-bottom: 40px;
+}
+
+.headline {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  color: var(--headline);
+  text-transform: uppercase;
+}
+
+
+#busan {
+    border-radius: 28px;
+    width: 100%;
+    height: 660px;
+}
+
+figcaption {
+    color: var(--text-secondary);
+    font-style: italic;
+    text-align: center;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 40px 0;
+  background-color: var(--border-primary);
+}
+
+#list-locations img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+#list-locations figure {
+    margin: 20px auto 20px;
+    overflow: hidden;
+}
+
+#list-locations h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 4px 15px auto;
+}
+
+#list-locations p {
+    margin: 4px 5px auto;
+}
+
+article li {
+    margin-left: 40px;
+}
+
+ul li::marker {
+    color: var(--text-primary);
+}
+
+article h3 {
+    font-size: 28px;
+    color: var(--text-primary);
+}
+
+article #strong {
+    font-weight: bold;
+}
+
+.blue {
+    color: var(--accent-blue);
+}
+.purple {
+    color: var(--accent-purple);
+}
+.orange {
+    color: var(--accent-orange);
+}
+.pink {
+    color: var(--accent-pink);
+}
+
+#description {
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+footer {
+    text-align: center;
+    color: var(--text-primary);
+}
+
+footer img {
+    width: 16px;
+    vertical-align: middle;
+}
